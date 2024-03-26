@@ -199,3 +199,9 @@ RIGHT JOIN CO
 ON STU.ID=CO.ID
 WHERE STU.ID IS NULL;
 
+select replace( name ,'','-') #replace space by -
+from students1;
+SELECT SUBSTRING(name, 1, 2) FROM students1;
+select name
+from students1
+where name like 'k%';
